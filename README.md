@@ -1,1 +1,1 @@
-#This branch is for developing the about and contact page of the website.
+# This branch is for developing the about and contact pages of the website.
