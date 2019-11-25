@@ -1,3 +1,1 @@
-# CUhackit_2020_site
-# CUhackit_2020_site
-# cuhackit_2020_dev
+#This branch is for developing the about and contact page of the website.
