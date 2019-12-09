@@ -1,208 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="bootstrap-4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="./main-style.css">
 </head>
 
 <body>
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light"> <!--navbar-custom-->
-    <a class="navbar-brand" href="index.html">
-        <img src="images/CUhackit_RGB_Bug_Color.svg" width="215" height="35">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav nav-fill w-100 align-items-start">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="...">About</a>
-            </li>
-            <!-- <li class="nav-item">
-                    <a class="nav-link" href="...">Quotes</a>
-                </li> -->
-            <li class="nav-item">
-                <a class="nav-link" href="...">Schedule</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="...">Partners</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="...">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav> 
-
-<!-- Home Section -->
-<section class="section_block bg-light" id="home">
-    <div class="container border">
-        <div class="row">
-            <div class="col border">
-                <div class="row">
-                    <!-- Leftmost Side -->
-                    <div class="text-right col-6 border home_text" id="home_right">
-                        <div class="row">
-                            <div class="col border">
-                                <p id="title">CUhackit</p>
-                            </div>
-                            <div class="w-100"></div>
-                            <div class="col">
-                                <p class="paraText" id="subtitle"><b>Clemson University</b>
-                                <br>January 25-26</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Middle Side -->
-                    <div class="text-left col-3 border home_text" id="home_mid">
-                        <div class="row">
-                            <div class="col border">
-                                <p id="title">2020</p>
-                            </div>
-                            
-                            <div class="w-100"></div>
-                        </div>
-                    </div>
-                    <!-- Rightmost Side -->
-                    <div class="text-left col-3 border home_text" id="home_left">
-                        <div class="row">
-                            <div class="text-right col py-5 border">
-                                <p id="hm_buttons">Mentor</p>
-                            </div>
-                            <div class="w-100"></div>
-                            <div class="col pt-5 border">
-                                <p id="hm_buttons">Apply</p>
-                            </div> 
-                        </div>
-                    </div>
-                
-                </div>
+    <a id="mlh-trust-badge" style="display:block;max-width:40px;min-width:30px;position:fixed;right:20px;top:0;width:6%;z-index:10000" href="https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=gray"
+        target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-gray.svg" alt="Major League Hacking 2020 Hackathon Season" style="width:100%"></a>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <!--navbar-custom-->
+            <a class="navbar-brand" href="./index.html">
+                <img src="./images/CUhackit_RGB_Bug_Color.svg" width="200" height="35">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-fill w-100 align-items-start">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="...">Quotes</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#partners">Partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
-</section>
+    </nav>
 
-<!-- About Section -->
-<section class="section_block bg-dark text-light" id="about">
-    <div class="container border">
-        <div class="row">
-            <div class="col">
-                <p id="title">About CUhackit!</p>
-            </div>
-            <div class="w-100"></div>
-            <div class="col border">
-                <p id="abt_subtitle">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                    ut labore et dolore magna aliqua. Vulputate enim nulla aliquet porttitor lacus luctus accumsan 
-                    tortor. Sagittis purus sit amet volutpat consequat mauris nunc congue. Platea dictumst 
-                    vestibulum rhoncus est pellentesque elit. Pellentesque nec nam aliquam sem et tortor consequat. 
-                    Id faucibus nisl tincidunt eget nullam non.
-                </p>
-            </div>
-            <div class="w-100"></div>
-            <div class="text-right my-2 col border">
-                <p id="title"><strong>FAQ</strong></p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Quotes/Testimony Section -->
-<section class="section_block bg-light" id="quotes">
-    <!-- First Quote -->
-    <div class="container border">
-        <div class="row my-5 justify-content-center justify-content-md- border">
-            <!--Col-12 will cause it to span the full width, everything will stack, col-md-9/col-lg-10 for medium->large screens, everything will sit to the right of the picture-->
-            <div class="col col-12 col-md-9 col-lg-10">
-                <div class="quote_text">
-                    <div class="row py-5 justify-content-center justify-content-md-end">
-                        <!-- Quote -->
-                        <div class="col-auto col-md-7 col-lg-auto">
-                            <div class="names text-center text-md-left">
-                                <h2><strong>"Agreeable"</strong></h2>
+    <!-- Home Section -->
+    <section class="section_block" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <!-- Leftmost Side -->
+                        <div class="text-right col-6 home_text" id="home_right">
+                            <div class="row">
+                                <div class="col">
+                                    <p id="title">CUhackit</p>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="col">
+                                    <p class="paraText" id="subtitle"><b>Clemson University</b>
+                                        <br>January 25-26</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <!--Col-5 for small screens, it will keep the picture from shrinking too much, col-md-3/col-lg-2 for medium->large screens, the picture will sit to the left of the text-->
-            <div class="col col-5 col-md-3 col-lg-2 mb-2 mb-md-0">
-                <div class="people-picture">
-                    <img src="images/CUhackit_RGB_Bug_Color.svg" 
-                    class="img-fluid d-block w-100 rounded-circle" 
-                    height="100" width="100"> 
-                    <p>- may need to use SVG here for text wrap</p>
-                </div>
-            </div>
-        </div>
-    </div>
+                        <!-- Middle Side -->
+                        <div class="text-left col-3 home_text" id="home_mid">
+                            <div class="rotated-half-circle"></div>
+                            <div class="circle"></div>
+                            <div class="row circle-text">
+                                <div class="col">
+                                    <p id="title">2020</p>
+                                </div>
 
-    <!-- Second Quote -->
-    <div class="container border">
-        <div class="row mb-5 justify-content-center justify-content-md-start border">
-            <!--Col-5 for small screens, it will keep the picture from shrinking too much, col-md-3/col-lg-2 for medium->large screens, the picture will sit to the left of the text-->
-            <div class="col col-5 col-md-3 col-lg-2 mb-2 mb-md-0">
-                <div class="people-picture">
-                    <img src="images/CUhackit_RGB_Bug_Color.svg" 
-                    class="img-fluid d-block w-100 rounded-circle" 
-                    height="100" width="100"> 
-                    <p>- may need to use SVG here for text wrap</p>
-                </div>
-            </div>
-            <!--Col-12 will cause it to span the full width, everything will stack, col-md-9/col-lg-10 for medium->large screens, everything will sit to the right of the picture-->
-            <div class="col col-12 col-md-9 col-lg-10">
-                <div class="quote_text">
-                    <div class="row py-5 justify-content-center justify-content-md-start">
-                        <!-- Quote -->
-                        <div class="col-auto col-md-7 col-lg-auto">
-                            <div class="names text-center text-md-left">
-                                <h2><strong>"Agreeable"</strong></h2>
+                                <div class="w-100"></div>
                             </div>
                         </div>
+                        <!-- Rightmost Side -->
+                        <div class="text-left col-3 home_text" id="home_left">
+                            <div class="row">
+                                <div class="w-100"></div>
+                                <div class="apply-circle"></div>
+                                <div class="col apply-circle-text">
+                                    <a id="brand" href="#"><b>Apply</b></a>
+                                </div>
+                                <div class="mentor-circle"></div>
+                                <div class="col mentor-circle-text">
+                                    <a id="brand" href="#"><b>Mentor</b></a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Third Quote -->
-    <div class="container border">
-        <div class="row mb-5 justify-content-center justify-content-md- border">
-            <!--Col-12 will cause it to span the full width, everything will stack, col-md-9/col-lg-10 for medium->large screens, everything will sit to the right of the picture-->
-            <div class="col col-12 col-md-9 col-lg-10">
-                <div class="quote_text">
-                    <div class="row py-5 justify-content-center justify-content-md-end">
-                        <!-- Quote -->
-                        <div class="col-auto col-md-7 col-lg-auto">
-                            <div class="names text-center text-md-left">
-                                <h2><strong>"Agreeable"</strong></h2>
+    <!-- About Section -->
+    <section class="section_block bg-dark text-light" id="about">
+        <div class="container border">
+            <div class="row">
+                <div class="col">
+                    <p id="title">About CUhackit!</p>
+                </div>
+                <div class="w-100"></div>
+                <div class="col border">
+                    <p id="abt_subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Sagittis purus sit amet volutpat consequat mauris nunc congue.
+                        Platea dictumst vestibulum rhoncus est pellentesque elit. Pellentesque nec nam aliquam sem et tortor consequat. Id faucibus nisl tincidunt eget nullam non.
+                    </p>
+                </div>
+                <div class="w-100"></div>
+                <div class="text-right my-2 col border">
+                    <p id="title"><strong>FAQ</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quotes/Testimony Section -->
+    <section class="section_block bg-light" id="quotes">
+        <!-- First Quote -->
+        <div class="container border">
+            <div class="row my-5 justify-content-center justify-content-md- border">
+                <!--Col-12 will cause it to span the full width, everything will stack, col-md-9/col-lg-10 for medium->large screens, everything will sit to the right of the picture-->
+                <div class="col col-12 col-md-9 col-lg-10">
+                    <div class="quote_text">
+                        <div class="row py-5 justify-content-center justify-content-md-end">
+                            <!-- Quote -->
+                            <div class="col-auto col-md-7 col-lg-auto">
+                                <div class="names text-center text-md-left">
+                                    <h2><strong>"Agreeable"</strong></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Col-5 for small screens, it will keep the picture from shrinking too much, col-md-3/col-lg-2 for medium->large screens, the picture will sit to the left of the text-->
+                <div class="col col-5 col-md-3 col-lg-2 mb-2 mb-md-0">
+                    <div class="people-picture">
+                        <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid d-block w-100 rounded-circle" height="100" width="100">
+                        <p>- may need to use SVG here for text wrap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Quote -->
+        <div class="container border">
+            <div class="row mb-5 justify-content-center justify-content-md-start border">
+                <!--Col-5 for small screens, it will keep the picture from shrinking too much, col-md-3/col-lg-2 for medium->large screens, the picture will sit to the left of the text-->
+                <div class="col col-5 col-md-3 col-lg-2 mb-2 mb-md-0">
+                    <div class="people-picture">
+                        <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid d-block w-100 rounded-circle" height="100" width="100">
+                        <p>- may need to use SVG here for text wrap</p>
+                    </div>
+                </div>
+                <!--Col-12 will cause it to span the full width, everything will stack, col-md-9/col-lg-10 for medium->large screens, everything will sit to the right of the picture-->
+                <div class="col col-12 col-md-9 col-lg-10">
+                    <div class="quote_text">
+                        <div class="row py-5 justify-content-center justify-content-md-start">
+                            <!-- Quote -->
+                            <div class="col-auto col-md-7 col-lg-auto">
+                                <div class="names text-center text-md-left">
+                                    <h2><strong>"Agreeable"</strong></h2>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--Col-5 for small screens, it will keep the picture from shrinking too much, col-md-3/col-lg-2 for medium->large screens, the picture will sit to the left of the text-->
-            <div class="col col-5 col-md-3 col-lg-2 mb-2 mb-md-0">
-                <div class="people-picture">
-                    <img src="images/CUhackit_RGB_Bug_Color.svg" 
-                    class="img-fluid d-block w-100 rounded-circle" 
-                    height="100" width="100"> 
-                    <p>- may need to use SVG here for text wrap</p>
+        </div>
+
+        <!-- Third Quote -->
+        <div class="container border">
+            <div class="row mb-5 justify-content-center justify-content-md- border">
+                <!--Col-12 will cause it to span the full width, everything will stack, col-md-9/col-lg-10 for medium->large screens, everything will sit to the right of the picture-->
+                <div class="col col-12 col-md-9 col-lg-10">
+                    <div class="quote_text">
+                        <div class="row py-5 justify-content-center justify-content-md-end">
+                            <!-- Quote -->
+                            <div class="col-auto col-md-7 col-lg-auto">
+                                <div class="names text-center text-md-left">
+                                    <h2><strong>"Agreeable"</strong></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Col-5 for small screens, it will keep the picture from shrinking too much, col-md-3/col-lg-2 for medium->large screens, the picture will sit to the left of the text-->
+                <div class="col col-5 col-md-3 col-lg-2 mb-2 mb-md-0">
+                    <div class="people-picture">
+                        <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid d-block w-100 rounded-circle" height="100" width="100">
+                        <p>- may need to use SVG here for text wrap</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Schedule Section -->
-<section class="section_block bg-dark text-light" id="about">
+    <!-- Schedule Section -->
+    <section class="section_block bg-dark text-light" id="schedule">
         <div class="container border">
             <div class="row">
                 <div class="text-right col">
@@ -222,108 +223,107 @@
                 </div>
             </div>
         </div>
-</section>
-    
-<!-- Partners Section -->
-<section class="section_block bg-light" id="partners">
-    <div class="container border">
-        <div class="row justify-content-center">
-            <div class="text-center col">
-                <p id="title">Our Partners</p>
-            </div>
-            <div class="w-100"></div>
-            <div class="mb-5 col-3 border">
-                <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid" height="150" width="150" alt="Responsive image">
-                <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                    et dolore magna aliqua.</p>
-            </div>
-        </div>
+    </section>
 
-        <!-- First Row -->
-        <div class="row mb-5 justify-content-center border">
+    <!-- Partners Section -->
+    <section class="section_block bg-light" id="partners">
+        <div class="container border">
+            <div class="row justify-content-center">
+                <div class="text-center col">
+                    <p id="title">Our Partners</p>
+                </div>
+                <div class="w-100"></div>
+                <div class="mb-5 col-3 border">
+                    <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid" height="150" width="150" alt="Responsive image">
+                    <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+
+            <!-- First Row -->
+            <div class="row mb-5 justify-content-center border">
                 <div class="col-3 border">
                     <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid" height="150" width="150" alt="Responsive image">
                 </div>
                 <div class="col-3 border">
-                    <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid" height="150" width="150"" alt="Responsive image">
+                    <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid" height="150" width="150" " alt="Responsive image ">
+                </div>
+                <div class="col-3 border ">
+                    <img src="images/CUhackit_RGB_Bug_Color.svg " class="img-fluid " height="150 " width="150 "" alt="Responsive image">
                 </div>
                 <div class="col-3 border">
-                    <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid" height="150" width="150"" alt="Responsive image">
-                </div>
-                <div class="col-3 border">
-                    <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid" height="150" width="150"" alt="Responsive image">
+                    <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid" height="150" width="150" " alt="Responsive image ">
                 </div>
             </div>
 
         <!-- Second Row -->
-        <div class="row mb-5 justify-content-center border">
-            <div class="col-3 border">
-                <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid" height="150" width="150" alt="Responsive image">
+        <div class="row mb-5 justify-content-center border ">
+            <div class="col-3 border ">
+                <img src="images/CUhackit_RGB_Bug_Color.svg " class="img-fluid " height="150 " width="150 " alt="Responsive image ">
             </div>
-            <div class="col-3 border">
-                <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid" height="150" width="150"" alt="Responsive image">
+            <div class="col-3 border ">
+                <img src="images/CUhackit_RGB_Bug_Color.svg " class="img-fluid " height="150 " width="150 "" alt="Responsive image">
+                </div>
+                <div class="col-3 border">
+                    <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid" height="150" width="150" " alt="Responsive image ">
             </div>
-            <div class="col-3 border">
-                <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid" height="150" width="150"" alt="Responsive image">
+            <div class="col-3 border ">
+                <img src="images/CUhackit_RGB_Bug_Color.svg " class="img-fluid " height="150 " width="150 "" alt="Responsive image">
+                </div>
             </div>
-            <div class="col-3 border">
-                <img src="images/CUhackit_RGB_Bug_Color.svg" class="img-fluid" height="150" width="150"" alt="Responsive image">
+
+            <!-- Become a sponsor -->
+            <div class="row border">
+                <div class="text-center col-3 border">
+                    <p id="subtitle"><strong>Become <br>a <br>Sponsor</strong></p>
+                </div>
+                <div class="col-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
             </div>
+
         </div>
 
-        <!-- Become a sponsor -->
-        <div class="row border">
-            <div class="text-center col-3 border">
-                <p id="subtitle"><strong>Become <br>a <br>Sponsor</strong></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section_block bg-dark text-light" id="contact">
+        <div class="container border">
+            <div class="row justify-content-left">
+                <div class="text-left col">
+                    <p id="title">Keep in touch!</p>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-8 border">
+                    <div class="place_holder_c"></div>
+                </div>
             </div>
-            <div class="col-3">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                   et dolore magna aliqua.</p>
+            <div class="my-5 row border">
+                <div class="mr-3 col-1">
+                    <div class="place_holder_icon"></div>
+                </div>
+                <div class="mr-3 col-1">
+                    <div class="place_holder_icon"></div>
+                </div>
+                <div class="mr-3 col-1">
+                    <div class="place_holder_icon"></div>
+                </div>
+                <div class="col-1">
+                    <div class="place_holder_icon"></div>
+                </div>
             </div>
+
         </div>
+    </section>
 
-    </div>
-        
-</section>
-    
-<!-- Contact Section -->
-<section class="section_block bg-dark text-light" id="partners">
-    <div class="container border">
-        <div class="row justify-content-left">
-            <div class="text-left col">
-                <p id="title">Keep in touch!</p>
-            </div>
-            <div class="w-100"></div>
-            <div class="col-8 border">
-                <div class="place_holder_c"></div>
-            </div>
-        </div>
-        <div class="my-5 row border">
-            <div class="mr-3 col-1">
-                <div class="place_holder_icon"></div>
-            </div>
-            <div class="mr-3 col-1">
-                <div class="place_holder_icon"></div>
-            </div>
-            <div class="mr-3 col-1">
-                <div class="place_holder_icon"></div>
-            </div>
-            <div class="col-1">
-                <div class="place_holder_icon"></div>
-            </div>
-        </div>
+    <!-- Footer -->
+    <footer class="footer-container">
 
-    </div>
-</section>
-
-<!-- Footer -->
-<footer class="footer-container">
-
-</footer>
+    </footer>
 
     <script src="jquery-3.4.1.min.js"></script>
     <script src="popper.min.js"></script>
     <script src="bootstrap-4.3.1/js/bootstrap.min.js"></script>
     <script src="main-js.js"></script>
 </body>
+
 </html>
