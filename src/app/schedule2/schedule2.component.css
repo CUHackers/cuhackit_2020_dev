@@ -1,0 +1,13 @@
+td, th {
+  border: none;
+  font-size: 20px;
+}
+
+#table{
+  border-radius: 32px;
+}
+
+.card-body{
+  background-color: rgba(3, 219, 252, .3);
+  border-radius: none;
+}

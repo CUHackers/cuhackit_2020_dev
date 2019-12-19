@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url("https://use.typekit.net/nnw6hpg.css");
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+}
+
+/* Main formatting */
+
+#title {
+    font-size: 100px;
+}
+
+#subtitle {
+    font-size: 30px;
+}
+
+/* Temp formatting for Home Page */
+#home, #about, #quotes, #partners {
+
+/* Fill the view */
+padding: 300px 20px;
+
+}
+
+#hm_subtitle {
+    font-size: 30px;
+}
+
+#hm_buttons {
+    font-size: 30px;
+}
+
+/* Temp formatting for About page */
+#abt_subtitle {
+    font-size: 20px;
+}
+
+.place_holder {
+    height: 500px;
+    width: auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.place_holder_c {
+    height: 70px;
+    width: auto;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+.place_holder_icon {
+    height: 60px;
+    width: 60px;
+    background-color: #ffffff;
+    border-radius: 100px;
+}
