@@ -1,0 +1,157 @@
+/*
+* @Author: Charlie Gallentine
+* @Date:   2019-12-18 21:23:15
+* @Last Modified by:   Charlie Gallentine
+* @Last Modified time: 2019-12-18 21:28:11
+*/
+
+/* Main formatting */
+
+#title {
+    font-size: 100px;
+}
+
+#subtitle {
+    font-size: 30px;
+}
+
+
+
+/* Temp formatting for Home Page */
+
+#home,
+#about,
+#quotes,
+#partners {
+    /* Fill the view */
+    padding: 300px 20px;
+}
+
+#home {
+    background-color: #2e3092;
+}
+
+#home_right #title,
+#home_mid #title {
+    color: #d3cfb6;
+}
+
+#home_right #subtitle {
+    color: #f78d36;
+}
+
+.home_mid {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.circle {
+    background-color: #50c6df;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -20%;
+    left: 0;
+}
+
+.circle-text {
+    z-index: 10;
+}
+
+.rotated-half-circle {
+    /* Create the circle */
+    width: 250px;
+    height: 250px;
+    border: 10px solid #2e3092;
+    border-radius: 50%;
+    margin-top: -15%;
+    margin-left: 5%;
+    /* Halve the circle */
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    /* Rotate the circle */
+    transform: rotate(75deg);
+    position: absolute;
+    z-index: 8;
+}
+
+.home_left {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.mentor-circle {
+    background-color: #ffe381;
+    border-radius: 50%;
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+}
+
+.mentor-circle-text {
+    margin-top: 25%;
+    margin-left: -64%;
+    z-index: 10;
+}
+
+.mentor-circle-text #brand {
+    color: #f78d36 !important;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.apply-circle {
+    background-color: #f78d36;
+    border-radius: 50%;
+    width: 55%;
+    height: 55%;
+    position: absolute;
+    top: 38%;
+    left: -33%;
+    z-index: 9;
+}
+
+.apply-circle-text {
+    margin-top: 54%;
+    margin-left: -25%;
+    z-index: 9;
+}
+
+.apply-circle-text #brand {
+    color: #ffe381 !important;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+
+/* Temp formatting for About page */
+
+#abt_subtitle {
+    font-size: 20px;
+}
+
+.place_holder {
+    height: 500px;
+    width: auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.place_holder_c {
+    height: 70px;
+    width: auto;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+.place_holder_icon {
+    height: 60px;
+    width: 60px;
+    background-color: #ffffff;
+    border-radius: 100px;
+}

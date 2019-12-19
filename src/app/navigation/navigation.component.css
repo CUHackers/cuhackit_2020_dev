@@ -1,0 +1,17 @@
+/*
+* @Author: Charlie Gallentine
+* @Date:   2019-12-18 21:23:15
+* @Last Modified by:   Charlie Gallentine
+* @Last Modified time: 2019-12-18 21:28:12
+*/
+/* Navbar */
+
+nav {
+    background-color: #2e3092 !important;
+}
+
+nav .navbar-nav li a {
+    color: #d3cfb6 !important;
+    font-weight: bold !important;
+    font-size: large !important;
+}
