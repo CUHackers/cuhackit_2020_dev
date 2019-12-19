@@ -2,13 +2,13 @@
 * @Author: Charlie Gallentine
 * @Date:   2019-12-18 21:31:15
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2019-12-18 21:32:10
+* @Last Modified time: 2019-12-18 21:37:44
 */
 
 
 /* made a mini-composit of the background pieces */
 #about {
-    background-image: url("images/AboutAssets/BackgroundComp-01.svg");
+    background-image: url("../../assets/images/AboutAssets/BackgroundComp-01.svg");
     background-color: rgb(80, 198, 223); 
     background-position: center;
     background-repeat: no-repeat;
