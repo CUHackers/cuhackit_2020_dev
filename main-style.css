@@ -1,26 +1,53 @@
+:root {
+    --color-dark-blue: #2e3192;
+    --color-cream: #fef8c0;
+}
+
 body {
     padding: 0;
     margin: 0;
     background: #ffffff;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'titling-gothic-fb', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Main formatting */
 
-#title {
-    font-size: 100px;
+.title {
+    color: var(--color-cream);
+    font-size: 90px;
+    font-style: bold;
 }
 
-#subtitle {
-    font-size: 30px;
+.subtitle {
+    font-size: 20px;
+}
+
+/* made a mini-composit of the background pieces */
+#about {
+    background-image: url("images/AboutAssets/BackgroundComp-01.svg");
+    background-color: rgb(80, 198, 223); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#abt_text {
+    color: rgb(46, 49, 146);
 }
 
 /* Temp formatting for Home Page */
 #home, #about, #quotes, #partners {
+    /* Fill the view */
+    padding: 300px 20px;
+}
 
-/* Fill the view */
-padding: 300px 20px;
-
+#home {
+    background-image: url("./images/background01-01-cropped.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%; 
+    width: 100%;
 }
 
 #hm_subtitle {
@@ -34,6 +61,16 @@ padding: 300px 20px;
 /* Temp formatting for About page */
 #abt_subtitle {
     font-size: 20px;
+}
+
+#navbar {
+    background-color: var(--color-dark-blue);
+}
+
+.navitem-text {
+    color: var(--color-cream) !important;
+    font-size: 26px;
+    font-style: bold;
 }
 
 .place_holder {
