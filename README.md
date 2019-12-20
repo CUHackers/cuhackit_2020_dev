@@ -1,1 +1,2 @@
-# This branch is for developing the about and contact pages of the website.
+# Rough outline of each section of the website.
+
