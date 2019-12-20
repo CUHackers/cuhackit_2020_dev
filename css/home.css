@@ -1,0 +1,252 @@
+/*
+* @Author: Ayush Petigara
+* @Date:   2019-12-19 11:44:00
+* @Last Modified by:   Ayush Petigara
+* @Last Modified time: 2019-12-19 11:44:00
+*/
+
+.background {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+/* larger screen */
+
+.backlandscape {
+    position: absolute;
+    top: 6vw;
+    z-index: 3;
+}
+
+.forelandscape {
+    position: absolute;
+    top: 10vw;
+    z-index: 4;
+}
+
+.moon {
+    max-width: 5%;
+    position: absolute;
+    top: 16vw;
+    left: 31vw;
+    z-index: 2;
+}
+
+.header {
+    max-width: 55%;
+    position: absolute;
+    top: 28vw;
+    left: 18vw;
+    z-index: 5;
+}
+
+.applybutton {
+    max-width: 16%;
+    position: absolute;
+    top: 42vw;
+    right: 20vw;
+    z-index: 6;
+}
+
+.mentorbutton {
+    max-width: 12%;
+    position: absolute;
+    top: 36vw;
+    right: 14vw;
+    z-index: 6;
+}
+
+.rightcirclegroup {
+    max-width: 30%;
+    position: absolute;
+    top: 12vw;
+    right: 0vw;
+    z-index: 6;
+}
+
+.leftcirclegroup {
+    max-width: 30%;
+    position: absolute;
+    top: 20vw;
+    left: 0vw;
+    z-index: 6;
+}
+
+
+/* medium screen */
+
+@media only screen and (max-width: 1150px) and (min-width: 920px) {
+    .backlandscape {
+        position: absolute;
+        top: 8vw;
+        z-index: 3;
+    }
+    .forelandscape {
+        position: absolute;
+        top: 12vw;
+        z-index: 4;
+    }
+    .moon {
+        max-width: 5%;
+        position: absolute;
+        top: 17vw;
+        left: 30vw;
+        z-index: 2;
+    }
+    .header {
+        max-width: 55%;
+        position: absolute;
+        top: 30vw;
+        left: 18vw;
+        z-index: 5;
+    }
+    .applybutton {
+        max-width: 16%;
+        position: absolute;
+        top: 43vw;
+        right: 20vw;
+        z-index: 6;
+    }
+    .mentorbutton {
+        max-width: 12%;
+        position: absolute;
+        top: 37vw;
+        right: 14.5vw;
+        z-index: 6;
+    }
+    .rightcirclegroup {
+        max-width: 30%;
+        position: absolute;
+        top: 14vw;
+        right: 0vw;
+        z-index: 6;
+    }
+    .leftcirclegroup {
+        max-width: 30%;
+        position: absolute;
+        top: 22vw;
+        left: 0vw;
+        z-index: 6;
+    }
+}
+
+
+/* medium screen */
+
+@media only screen and (max-width: 920px) and (min-width: 650px) {
+    .backlandscape {
+        position: absolute;
+        top: 10vw;
+        z-index: 3;
+    }
+    .forelandscape {
+        position: absolute;
+        top: 14vw;
+        z-index: 4;
+    }
+    .moon {
+        max-width: 5%;
+        position: absolute;
+        top: 19vw;
+        left: 30vw;
+        z-index: 2;
+    }
+    .header {
+        max-width: 55%;
+        position: absolute;
+        top: 32vw;
+        left: 18vw;
+        z-index: 5;
+    }
+    .applybutton {
+        max-width: 16%;
+        position: absolute;
+        top: 45vw;
+        right: 20vw;
+        z-index: 6;
+    }
+    .mentorbutton {
+        max-width: 12%;
+        position: absolute;
+        top: 40vw;
+        right: 14.5vw;
+        z-index: 6;
+    }
+    .rightcirclegroup {
+        max-width: 30%;
+        position: absolute;
+        top: 16vw;
+        right: 0vw;
+        z-index: 6;
+    }
+    .leftcirclegroup {
+        max-width: 30%;
+        position: absolute;
+        top: 24vw;
+        left: 0vw;
+        z-index: 6;
+    }
+}
+
+
+/* smaller screen */
+
+@media only screen and (max-width: 650px) {
+    .backlandscape {
+        position: absolute;
+        top: 20vw;
+        z-index: 3;
+    }
+    .forelandscape {
+        position: absolute;
+        top: 24vw;
+        z-index: 4;
+    }
+    .moon {
+        max-width: 5%;
+        position: absolute;
+        top: 29vw;
+        left: 30vw;
+        z-index: 2;
+    }
+    .header {
+        max-width: 55%;
+        position: absolute;
+        top: 40vw;
+        left: 18vw;
+        z-index: 5;
+    }
+    .applybutton {
+        max-width: 16%;
+        position: absolute;
+        top: 52vw;
+        right: 20vw;
+        z-index: 6;
+    }
+    .mentorbutton {
+        max-width: 12%;
+        position: absolute;
+        top: 47vw;
+        right: 14.5vw;
+        z-index: 6;
+    }
+    .rightcirclegroup {
+        max-width: 30%;
+        position: absolute;
+        top: 26vw;
+        right: 0vw;
+        z-index: 6;
+    }
+    .leftcirclegroup {
+        max-width: 30%;
+        position: absolute;
+        top: 34vw;
+        left: 0vw;
+        z-index: 6;
+    }
+}

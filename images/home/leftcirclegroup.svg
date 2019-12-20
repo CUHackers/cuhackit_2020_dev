@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 250" style="enable-background:new 0 0 400 250;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#2E3192;}
+	.st2{opacity:0.3;}
+	.st3{opacity:0.5;fill:#2E3192;enable-background:new    ;}
+</style>
+<title>02</title>
+<g id="SVGgroupcirc">
+	<polygon class="st0" points="228.4,128.3 267.9,101.3 293.1,143.8 253.5,170.7 	"/>
+	<polygon class="st0" points="118,167.3 138.6,153.3 151.7,175.4 131.1,189.4 	"/>
+	<ellipse class="st1" cx="134.9" cy="171.3" rx="12.2" ry="13.1"/>
+	<polygon class="st0" points="58.4,137.2 97,110.8 121.6,152.2 83,178.5 	"/>
+	<polygon class="st0" points="0,132.4 24.6,115.7 40.2,142 15.6,158.8 	"/>
+	<polygon class="st0" points="175.8,155.7 205.1,135.8 223.7,167.2 194.4,187.1 	"/>
+	<ellipse class="st1" cx="199.8" cy="161.4" rx="17.3" ry="18.6"/>
+	<polygon class="st0" points="139.1,139.3 158.9,125.8 171.5,147.1 151.7,160.6 	"/>
+	<ellipse class="st1" cx="155.3" cy="143.2" rx="11.7" ry="12.6"/>
+	<polygon class="st0" points="45.4,162.5 62.2,151 72.9,169 56,180.5 	"/>
+	<ellipse class="st1" cx="59.1" cy="165.7" rx="10" ry="10.7"/>
+	<polygon class="st0" points="213.9,117.1 230.7,105.7 241.4,123.7 224.5,135.2 	"/>
+	<ellipse class="st1" cx="227.6" cy="120.4" rx="10" ry="10.7"/>
+	<g class="st2">
+		<polygon class="st0" points="199.9,207.1 239.3,180.2 264.3,222.4 224.9,249.3 		"/>
+		<polygon class="st0" points="119.9,168.7 172,133.2 205.1,189.1 153.1,224.6 		"/>
+		<ellipse class="st1" cx="162.6" cy="178.9" rx="30.9" ry="33.1"/>
+		<polygon class="st0" points="52,167.6 81.3,147.7 99.9,179 70.6,199 		"/>
+		<ellipse class="st1" cx="76" cy="173.3" rx="17.3" ry="18.6"/>
+	</g>
+	<g class="st2">
+		<polygon class="st0" points="194.5,156.5 238.2,126.7 266.1,173.6 222.3,203.4 		"/>
+		<ellipse class="st1" cx="230.3" cy="165" rx="25.9" ry="27.8"/>
+	</g>
+	<polygon class="st0" points="80.3,181.3 98.5,168.9 110.1,188.5 91.9,200.9 	"/>
+	<ellipse class="st1" cx="95.2" cy="184.9" rx="10.8" ry="11.6"/>
+	<polygon class="st0" points="131.7,169.5 157.5,151.9 174,179.6 148.1,197.3 	"/>
+	<ellipse class="st1" cx="152.8" cy="174.5" rx="15.3" ry="16.4"/>
+	<polygon class="st0" points="273.9,95 303.5,74.8 322.3,106.5 292.7,126.7 	"/>
+	<ellipse class="st1" cx="298.1" cy="100.7" rx="17.5" ry="18.8"/>
+	<g class="st2">
+		<polygon class="st0" points="275.1,74.4 326.3,39.6 358.7,94.3 307.6,129.2 		"/>
+		<ellipse class="st1" cx="317" cy="84.3" rx="30.3" ry="32.5"/>
+		<polygon class="st0" points="248.7,131 287.7,104.4 312.4,146.2 273.5,172.7 		"/>
+		<ellipse class="st1" cx="280.6" cy="138.5" rx="23.1" ry="24.7"/>
+		<polygon class="st0" points="174.9,112.8 199.4,96.1 215,122.4 190.5,139.1 		"/>
+		<ellipse class="st1" cx="195" cy="117.6" rx="14.5" ry="15.6"/>
+		<polygon class="st0" points="83.8,118.4 116.7,96 137.6,131.2 104.7,153.6 		"/>
+		<ellipse class="st1" cx="110.7" cy="124.8" rx="19.5" ry="20.9"/>
+		<polygon class="st0" points="22.4,161.1 46.5,144.6 61.9,170.5 37.7,187 		"/>
+		<ellipse class="st1" cx="42.2" cy="165.8" rx="14.3" ry="15.4"/>
+		<polygon class="st0" points="20.7,121.7 53.1,99.6 73.7,134.3 41.3,156.4 		"/>
+		<ellipse class="st1" cx="47.2" cy="128" rx="19.2" ry="20.6"/>
+		<polygon class="st0" points="211.2,90.9 243.6,68.8 264.2,103.6 231.8,125.7 		"/>
+		<ellipse class="st1" cx="237.7" cy="97.2" rx="19.2" ry="20.6"/>
+	</g>
+	<ellipse class="st3" cx="279.2" cy="26.3" rx="18.6" ry="19.9"/>
+	<ellipse class="st3" cx="394.9" cy="5.4" rx="5.1" ry="5.4"/>
+	<ellipse class="st1" cx="58.6" cy="203.8" rx="43.1" ry="46.2"/>
+</g>
+</svg>
