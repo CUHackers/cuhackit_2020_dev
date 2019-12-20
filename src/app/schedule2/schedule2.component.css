@@ -12,3 +12,7 @@ h5, h6 {
   border-radius: 32px;
   padding: 0px;
 }
+
+#schedule {
+  background-color: #2E3092;
+}
