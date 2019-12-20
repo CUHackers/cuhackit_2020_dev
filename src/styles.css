@@ -5,17 +5,24 @@ body {
     padding: 0;
     margin: 0;
     background: #ffffff;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'titling-gothic-fb', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Main formatting */
 
-#title {
-    font-size: 100px;
+.title {
+    color: #fef8c0;
+    font-size: 90px;
+    font-style: bold;
 }
 
-#subtitle {
-    font-size: 30px;
+.subtitle {
+    font-size: 20px;
+}
+
+.section_block {
+    height: 1600px;
+    width: auto;
 }
 
 /* Temp formatting for Home Page */
@@ -24,38 +31,4 @@ body {
 /* Fill the view */
 padding: 300px 20px;
 
-}
-
-#hm_subtitle {
-    font-size: 30px;
-}
-
-#hm_buttons {
-    font-size: 30px;
-}
-
-/* Temp formatting for About page */
-#abt_subtitle {
-    font-size: 20px;
-}
-
-.place_holder {
-    height: 500px;
-    width: auto;
-    background-color: #ffffff;
-    border-radius: 20px;
-}
-
-.place_holder_c {
-    height: 70px;
-    width: auto;
-    background-color: #ffffff;
-    border-radius: 50px;
-}
-
-.place_holder_icon {
-    height: 60px;
-    width: 60px;
-    background-color: #ffffff;
-    border-radius: 100px;
 }

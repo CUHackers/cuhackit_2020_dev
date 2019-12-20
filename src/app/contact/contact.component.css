@@ -1,0 +1,13 @@
+#contact {
+    background-image: url("../../assets/images/ContactAssets/composite.svg");
+    background-color: rgb(80, 198, 223); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon {
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+}

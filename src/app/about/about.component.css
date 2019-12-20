@@ -1,0 +1,11 @@
+#about {
+    background-image: url("../../assets/images/AboutAssets/BackgroundComp-02Bubbles.svg");
+    background-color: rgb(80, 198, 223); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#abt_text {
+    color: rgb(46, 49, 146);
+}
