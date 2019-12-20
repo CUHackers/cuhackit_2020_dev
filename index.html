@@ -91,9 +91,9 @@
 
 <!-- About Section -->
 <!-- Removed borders for now -->
-<section class="section_block text-light" id="about">
+<section class="section_block" id="about">
     <div class="container">
-        <div class="row">
+        <div class="row border">
             <div class="col text-center">
                 <p class="title" id="abt_text">About CUhackit!</p>
             </div>
@@ -111,10 +111,11 @@
             <div class="col"></div>
             <div class="w-100"></div>
             <!-- Align FAQ button under text -->
-            <div class="col-8"></div>
+            <!-- Commenting out FAQ Button for now, since we don't have an FAQ page yet -->
+            <!-- <div class="col-8"></div>
             <div class="col my-2">
                 <img src="images/AboutAssets/FAQButton.svg" height="250" weight="250" alt="FAQ button">
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -207,7 +208,7 @@
 </section>
 
 <!-- Schedule Section -->
-<section class="section_block bg-dark text-light" id="Schedule">
+<section class="section_block bg-dark text-light" id="schedule">
         <div class="container border">
             <div class="row">
                 <div class="text-right col">
@@ -230,7 +231,7 @@
 </section>
     
 <!-- Partners Section -->
-<section class="section_block bg-light" id="partners">
+<section class="section_block bg-dark" id="partners">
     <div class="container border">
         <div class="row justify-content-center">
             <div class="text-center col">
@@ -292,39 +293,65 @@
 </section>
     
 <!-- Contact Section -->
-<section class="section_block bg-dark text-light" id="partners">
-    <div class="container border">
-        <div class="row justify-content-left">
-            <div class="text-left col">
-                <p class="title">Keep in touch!</p>
-            </div>
+<section class="section_block" id="contact">
+    <div class="container">
+        <!-- Temporary Spacer -->
+        <div class="row">
+            <div class="col my-5 py-5"></div>
             <div class="w-100"></div>
+            <div class="col my-5 py-5"></div>
+            <div class="w-100"></div>
+        </div>
+        <!-- Actual elements -->
+        <div class="row ">
+            <div class="col text-left">
+                <p class="title" id="cont_text">Keep in touch!</p>
+            </div>
+            <!-- Will remove for now until we figure out how to receive the form info/where to store them -->
+            <!-- <div class="w-100"></div>
             <div class="col-8 border">
                 <div class="place_holder_c"></div>
-            </div>
-        </div>
-        <div class="my-5 row border">
-            <div class="mr-3 col-1">
-                <div class="place_holder_icon"></div>
-            </div>
-            <div class="mr-3 col-1">
-                <div class="place_holder_icon"></div>
-            </div>
-            <div class="mr-3 col-1">
-                <div class="place_holder_icon"></div>
-            </div>
-            <div class="col-1">
-                <div class="place_holder_icon"></div>
-            </div>
+            </div> -->
         </div>
 
+        <!-- Icons are white in order to abide by their respective branding guidelines
+                will add JS later to change color/increase size on hover -->
+        <div class="row">
+            <!-- Email -->
+            <div class="mr-3 col-1">
+                <div class="icon">
+                    <a href="mailto:cuhackers@g.clemson.edu">
+                        <img src="images/ContactAssets/emailIcon.svg" height="55px" width="55px" alt="email link">
+                    </a>
+                </div>
+            </div>
+            <!-- Twitter -->
+            <div class="mr-3 col-1">
+                <div class="icon">
+                    <a href="https://twitter.com/cuhackit?lang=en" target="_blank">
+                        <img src="images/ContactAssets/twitterLogo.svg" height="55px" width="55px" alt="twitter link">
+                    </a>
+                </div>
+            </div>
+            <!-- Facebook -->
+            <div class="mr-3 col-1">
+                <div class="icon">
+                    <a href="https://www.facebook.com/events/424091875126740/?notif_t=plan_user_invited&notif_id=1568689364933783" target="_blank">
+                        <img src="images/ContactAssets/f_logo_RGB-White_58.png" height="55px" width="55px" alt="facebook link">
+                    </a>
+                </div>
+            </div>
+            <!-- Instagram -->
+            <div class="mr-3 col-1">
+                <div class="icon">
+                    <a href="https://www.instagram.com/cuhackit/?hl=en" target="_blank">
+                        <img src="images/ContactAssets/F7A0B5D.png" height="50px" width="50px" alt="instagram link">
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
-
-<!-- Footer -->
-<footer class="footer-container">
-
-</footer>
 
     <script src="jquery-3.4.1.min.js"></script>
     <script src="popper.min.js"></script>

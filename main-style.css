@@ -22,9 +22,15 @@ body {
     font-size: 20px;
 }
 
-/* made a mini-composit of the background pieces */
+.section_block {
+    height: 1600px;
+    width: auto;
+}
+
+/*===About Page Stuff===*/
+/* made a mini-composite of the background pieces */
 #about {
-    background-image: url("images/AboutAssets/BackgroundComp-01.svg");
+    background-image: url("images/AboutAssets/BackgroundComp-02Bubbles.svg");
     background-color: rgb(80, 198, 223); 
     background-position: center;
     background-repeat: no-repeat;
@@ -34,6 +40,39 @@ body {
 #abt_text {
     color: rgb(46, 49, 146);
 }
+
+/*******End of About Page CSS*******/
+
+/*===Contact Page CSS===*/
+#contact {
+    background-image: url("images/ContactAssets/composite.svg");
+    background-color: rgb(80, 198, 223); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.place_holder {
+    height: 500px;
+    width: auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.place_holder_c {
+    height: 70px;
+    width: auto;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+.icon_T {
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+}
+
+/*******End of Contact Page CSS*******/
 
 /* Temp formatting for Home Page */
 #home, #about, #quotes, #partners {
@@ -59,10 +98,6 @@ body {
 }
 
 /* Temp formatting for About page */
-#abt_subtitle {
-    font-size: 20px;
-}
-
 #navbar {
     background-color: var(--color-dark-blue);
 }
@@ -71,25 +106,4 @@ body {
     color: var(--color-cream) !important;
     font-size: 26px;
     font-style: bold;
-}
-
-.place_holder {
-    height: 500px;
-    width: auto;
-    background-color: #ffffff;
-    border-radius: 20px;
-}
-
-.place_holder_c {
-    height: 70px;
-    width: auto;
-    background-color: #ffffff;
-    border-radius: 50px;
-}
-
-.place_holder_icon {
-    height: 60px;
-    width: 60px;
-    background-color: #ffffff;
-    border-radius: 100px;
 }
