@@ -1,0 +1,44 @@
+#partners {
+    background-image: url("../../assets/images/PartnerAssets/background.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    top: -250px;
+}
+
+.partner-text {
+    color: #50ABD1;
+    margin-bottom: 50px;
+}
+
+.partner-logos {
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+
+.btn{
+    position: relative;
+    top: 130px;
+    left: -45px;
+    display: inline-block;
+    text-decoration: none;
+    background: #2E3192;
+    color: #FCF8C0;
+    width: 360px;
+    height: 310px;
+    line-height: 300px;
+    font-size: 40px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: .4s;
+  }
+  
+  .btn:hover{
+      background: #08124b;
+  }
