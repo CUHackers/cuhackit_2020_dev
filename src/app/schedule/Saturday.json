@@ -1,0 +1,45 @@
+[
+  {
+    "Start Time": "9:00 AM",
+    "End Time": "1:00 PM",
+    "Title": "Check in",
+    "Column": 1
+  },
+  {
+    "Start Time": "10:00 AM",
+    "End Time": "10:30 AM",
+    "Title": "Opening Ceremony",
+    "Column": 2
+  },
+
+  {
+    "Start Time": "10:30 AM",
+    "End Time": "11:00 AM",
+    "Title": "Team Formation",
+    "Column": 2
+  },
+  {
+    "Start Time": "11:00 AM",
+    "End Time": "4:00 PM",
+    "Title": "Partnership Fair",
+    "Column": 1
+  },
+  {
+    "Start Time": "12:00 PM",
+    "End Time": "2:00 PM",
+    "Title": "Lunch",
+    "Column": 2
+  },
+  {
+    "Start Time": "4:00 PM",
+    "End Time": "5:00 PM",
+    "Title": "Lightning Talks",
+    "Column": 2
+  },
+  {
+    "Start Time": "6:00 PM",
+    "End Time": "8:00 PM",
+    "Title": "Dinner",
+    "Column": 1
+  }
+]

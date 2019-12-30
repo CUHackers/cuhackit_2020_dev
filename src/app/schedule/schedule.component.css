@@ -11,4 +11,18 @@ h5, h6 {
 #table{
   border-radius: 32px;
   padding: 0px;
+  height: 540px;
+}
+
+.card {
+  transition: all .1s ease-in-out;
+  border-radius: 0px;
+  background-color: transparent;
+  position: absolute;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  opacity: 100%;
+
 }
