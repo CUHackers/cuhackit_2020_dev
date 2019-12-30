@@ -22,8 +22,8 @@ export class Schedule2Component implements OnInit {
       let st = moment(event['Start Time'],"LT")
       let et = moment(event['End Time'],"LT")
 
-      let length = st.twix(et).length("hours");
-      let offset = st.hours()
+      let length = (st as any).twix(et).length("hours");
+      let offset = (st as any).hours()
       if(!length)
         length++
 
@@ -41,7 +41,7 @@ export class Schedule2Component implements OnInit {
 
     let q = moment("12:00 AM", "LT");
     let b = moment("4:00 PM", "LT");
-    this.clock = q.twix(b).toArray(2, "hours")
+    this.clock = (q as any).twix(b).toArray(2, "hours")
                     .map((a) => a.format("LT"))
 
 }
