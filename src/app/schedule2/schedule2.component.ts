@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Component, OnInit } from '@angular/core';
 import moment from 'moment';
 require('twix')
@@ -51,20 +50,3 @@ export class Schedule2Component implements OnInit {
 
 
 }
-=======
-import { Component, OnInit } from '@angular/core';
-
-@Component({
-  selector: 'app-schedule2',
-  templateUrl: './schedule2.component.html',
-  styleUrls: ['../schedule/schedule.component.css']
-})
-export class Schedule2Component implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
->>>>>>> ca342afae0e9c2c2b4e8be1f0b8b7804d8b6cced

@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-#table{
+#table {
   border-radius: 32px;
   padding: 0px;
   height: 720px;
@@ -15,25 +14,4 @@
 .card:hover {
   transform: scale(1.05);
   opacity: 100%;
-
 }
-=======
-td, th {
-  border: none;
-  font-size: 20px;
-}
-
-h5, h6 {
-  margin: 2px;
-}
-
-
-#table{
-  border-radius: 32px;
-  padding: 0px;
-}
-
-#schedule {
-  background-color: #2E3092;
-}
->>>>>>> ca342afae0e9c2c2b4e8be1f0b8b7804d8b6cced

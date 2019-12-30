@@ -1,15 +1,4 @@
-<<<<<<< HEAD
-td, th {
-  border: none;
-  font-size: 20px;
-}
-
-h5, h6 {
-  margin: 2px;
-}
-
-
-#table{
+#table {
   border-radius: 32px;
   padding: 0px;
   height: 540px;
@@ -25,21 +14,4 @@ h5, h6 {
 .card:hover {
   transform: scale(1.05);
   opacity: 100%;
-
 }
-=======
-td, th {
-  border: none;
-  font-size: 20px;
-}
-
-h5, h6 {
-  margin: 2px;
-}
-
-
-#table{
-  border-radius: 32px;
-  padding: 0px;
-}
->>>>>>> ca342afae0e9c2c2b4e8be1f0b8b7804d8b6cced

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Component, OnInit } from '@angular/core';
 import * as saturday from './Saturday.json';
 import moment from 'moment';
@@ -56,20 +55,3 @@ export class ScheduleComponent implements OnInit {
 
 
 }
-=======
-import { Component, OnInit } from '@angular/core';
-
-@Component({
-  selector: 'app-schedule',
-  templateUrl: './schedule.component.html',
-  styleUrls: ['./schedule.component.css']
-})
-export class ScheduleComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
->>>>>>> ca342afae0e9c2c2b4e8be1f0b8b7804d8b6cced
