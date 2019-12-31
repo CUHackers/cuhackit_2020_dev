@@ -1,0 +1,300 @@
+/*
+* @Author: Charlie Gallentine
+* @Date:   2019-12-20 00:27:50
+* @Last Modified by:   charliegallentine
+* @Last Modified time: 2019-12-20 17:02:17
+*/
+
+body {
+	padding: 0;
+	margin: 0;
+	height: 705.83vw !important;
+
+	overflow-x: hidden;
+	box-sizing: border-box;
+	font-family: 'titling-gothic-fb', sans-serif, 'Courier New', Courier, monospace;
+
+	font-family: titling-gothic-fb, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.border {
+	border: 2px solid orange;
+}
+
+.hoverexpand:hover {
+	transform: scale(1.1);
+	transition: transform 0.3s ease-in-out !important;
+}
+
+#background {
+	width: 100%;
+}
+
+#background-container {
+	width: 100vw;
+	position: absolute;
+	margin-top: 50px;
+	top: 0;
+	left: 0;
+}
+
+#home {
+	height: 57.63vw !important;
+	max-height: 57.63%;
+	width: 100%;
+	margin-top: 70px;
+}
+
+#about {
+	height: 79.84vw !important;
+	max-height: 79.84%;
+	width: 100%;
+}
+
+#about-title {
+	font-size: 36px;
+	margin-top: 2vw;
+}
+
+#about-text {
+	color: rgb(46, 49, 146);
+	font-size: 10px;
+	margin-left: 20vw;
+	width: 80%;
+}
+
+/*.about-text {
+	margin-left: 20vw;
+}*/
+
+@media(min-width:600px)
+{
+	#about-text {
+		font-size: 12px;
+	}
+
+	#about-title {
+		margin-top: 50vw;
+	}
+}
+
+@media(min-width:920px)
+{
+	.about-text {
+		font-size: 16px;
+	}
+}
+
+/* Centered text */
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#quotes {
+	height: 133.19vw !important;
+	max-height: 133.19%;
+	width: 100%;
+}
+
+#quote-container {
+	margin-top:10vw;
+}
+
+.quote-row {
+	/*border: 2px solid cyan;*/
+}
+
+.quote-text {
+	margin-left: -5vw;
+	margin-right: -5vw;
+	margin-top: 3vw;
+	/*border:2px solid red;*/
+}
+
+.quote-image {
+	/*border: 2px solid green;*/
+	width: 25vw;
+}
+
+.quote-shape {
+	width: 25vw;
+}
+
+.quote-quote {
+	font-size: 8px;
+	color: #2e3192;
+	text-align: center;
+}
+
+@media(min-width:600px)
+{
+	.quote-quote {
+		font-size: 10px;
+	}
+}
+
+@media(min-width:920px)
+{
+	#quote-container {
+		margin-top:15vw;
+	}
+
+	.quote-quote {
+		font-size: 12px;
+	}
+}
+
+@media(min-width:1100px)
+{
+	.quote-quote {
+		font-size: 16px;
+	}
+}
+
+#schedule {
+	height: 184.92vw !important;
+	max-height: 184.92%;
+	width: 100%;
+}
+
+#schedule-title {
+	color: #50c6df;
+	margin-top: 35vw;
+	padding-top: 10vw;
+}
+
+#partners {
+	height: 153.97vw !important;
+	max-height: 153.97%;
+	width: 100%;
+	margin-top: -15vw;
+}
+
+#partners-title {
+	color: #50c6df;
+	margin-top: 15vw;
+	padding-top: 10vw;
+}
+
+#partner-button {
+	/*border: 2px solid green;*/
+	right: 20vw;
+	top: -5vw;
+/*	margin-top:-10vw;
+	margin-left:-40vw;*/
+}
+
+#partner-button-link {
+	margin-top: -2vw;
+	width: 100px;
+	height: 100px;
+}
+
+@media(min-width: 500px)
+{
+	#partners-title {
+		margin-top: 27vw;
+	}
+
+	#partner-button {
+/*		margin-top:15vw;
+		margin-left:-40vw;*/
+	}
+
+	#partner-button-link {
+		margin-top: -5vw;
+	}
+}
+
+@media(min-width: 650px)
+{
+	#partner-button-link {
+		/*margin-top: -5vw;*/
+	}
+}
+
+@media(min-width: 720px)
+{
+	#partner-button-link {
+		/*margin-top: 0vw;*/
+		height: 150px;
+		width: 150px;
+	}
+}
+
+@media(min-width: 850px)
+{
+	#partner-button-link {
+		margin-top: 5vw;
+		height: 150px;
+		width: 150px;
+	}
+}
+
+@media(min-width: 850px)
+{
+	#partner-button-link {
+		/*margin-top: 5vw;*/
+		height: 200px;
+		width: 200px;
+	}
+}
+
+
+#title-partner {
+	/*max-width: 10vw;*/
+}
+
+.partner-logo {
+	width: 20vw;
+	padding: 3vw;
+}
+
+
+
+#title-partner-logo {
+	max-width: 25vw;
+}
+
+#title-partner-text {
+	font-size: 8px;
+	max-width: 25vw;
+}
+
+#contact {
+	border: 1px solid rgba(255, 0, 0, 0);
+	height: 68.41vw !important;
+	max-height: 68.41%;
+	width: 100%;
+}
+
+#contact-buttons {
+	margin-top: 15vw;
+	padding-top: 10vw;
+	margin-left: 15vw;
+}
+
+.contact-link:hover > span > .contact-circle {
+	color: #ffe381;
+	transform: scale(2);
+	transition: .5s ease-in-out;
+}
+
+.contact-link:hover > span > .contact-logo {
+	color: #f78d36;
+	transform: scale(2);
+	transition: .5s ease-in-out;
+}
+
+.contact-logo {
+	color: #50c6df;
+}
+
+.contact-circle {
+	color: #2e3192;
+}
